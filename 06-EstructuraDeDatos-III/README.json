@@ -1,0 +1,12 @@
+{
+  "layout": "lesson",
+  "lessonTitle": "Estructura de datos III",
+  "feedbackID": "05-EstructuraDeDatos-III",
+  "permalink": "/Estructura_de_datos_III/",
+  "quizzID": "60745c49656c8d23c2e610b7",
+  "homeworkUrl": "https://github.com/soyHenry/FT-M1/tree/master/06-EstructuraDeDatos-III/homework",
+  "eleventyNavigation": {
+    "key": "Datos III",
+    "order": 6
+  }
+}

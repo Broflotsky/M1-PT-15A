@@ -1,0 +1,12 @@
+{
+  "layout": "lesson",
+  "lessonTitle": "JavaScript Avanzado II",
+  "feedbackID": "02-JavaScriptAvanzado-II",
+  "permalink": "/JS_Avanzado_II/",
+  "quizzID" : "60662c1a656c8d23c2e60e66",
+  "homeworkUrl": "https://github.com/soyHenry/FT-M1/tree/master/03-JavaScriptAvanzado-II/homework",
+  "eleventyNavigation": {
+    "key": "JS Avanzado II",
+    "order": 3
+  }
+}

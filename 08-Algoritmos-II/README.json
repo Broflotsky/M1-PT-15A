@@ -1,0 +1,12 @@
+{
+  "layout": "lesson",
+  "lessonTitle": "Algoritmos II",
+  "feedbackID": "07-Algoritmos-II",
+  "permalink": "/Algoritmos_II/",
+  "quizzID": "607dd05356b4056ff0328371",
+  "homeworkUrl": "https://github.com/soyHenry/FT-M1/tree/master/08-Algoritmos-II/homework",
+  "eleventyNavigation": {
+    "key": "Algoritmos II",
+    "order": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "layout": "lesson",
+  "lessonTitle": "Estructura de datos I",
+  "feedbackID": "03-EstructuraDeDatos-I",
+  "permalink": "/Estructura_de_datos_I/",
+  "quizzID" : "6066323c656c8d23c2e60e75",
+  "homeworkUrl": "https://github.com/soyHenry/FT-M1/tree/master/04-EstructuraDeDatos-I/homework",
+  "eleventyNavigation": {
+    "key": "Datos I",
+    "order": 4
+  }
+}

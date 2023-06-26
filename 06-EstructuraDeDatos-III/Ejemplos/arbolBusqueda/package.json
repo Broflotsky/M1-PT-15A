@@ -1,0 +1,16 @@
+{
+  "name": "arbolbusqueda",
+  "version": "0.0.1",
+  "description": "Implementacion en JavaScript de arbol binario de busqueda AVL autobalanceado.",
+  "main": "arbolBinarioBusqueda.js",
+  "dependencies": {
+    "tape": "^4.6.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Toni Tralice",
+  "license": "MIT"
+}

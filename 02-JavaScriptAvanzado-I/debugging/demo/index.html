@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <script>
+
+        var obj = {
+            fullname: 'Natalia Nerea',
+            prop: {
+                fullname: 'Aurelio De Rosa',
+                getFullname: function() {
+                    return this.fullname;
+                }
+            }
+        };
+        var test;
+        function saludar( saludo, obj ){
+            test = obj.prop.getFullname()
+            return function( nombre, test ){
+                alert(saludo + ' ' + nombre);
+                console.log(test)
+            }
+        }
+
+        var saludarHola = saludar('Hola', obj); 
+
+        saludarHola('Toni', test); 
+
+        //Ejemplos de console.log
+        //console.table() Muestra datos tabulares como una tabla. 
+        //puede recibir un array o un objeto. La tabla mostrara 
+        //una columna index y una columna values
+        //con un array la columna index contendra el indice del elemento
+        // y values el valor del dato alojado en dicho indice
+        console.table(["apples", "oranges", "bananas"]);
+        //con un objeto la columna index contendra el nombre de la propiedad
+        // y values el valor de dicha propiedad
+        let obj={
+            firstName: "Daniel",
+            lastName: "Maers"
+        }
+
+        
+        console.table([obj, obj, obj])
+
+        //console.warn() muestra un mensaje de advertencia
+        console.warn("Base de datos no respaldada, cuidado!");
+        
+        //console.info() muestra un mensaje de informacion
+        console.info("Usuario creado satisfactoriamente.");
+
+        //console.error() muestra un mensaje de error
+        console.error("No se pudo eliminar el registro");
+
+        //console.group() y console.groupEnd()
+        // Crea un nuevo grupo, indentando todos los mensajes subsecuentes
+        // en un nuevo nivel. Para retroceder un nivel, se utiliza groupEnd()
+        console.group("Listado de paises");
+        console.log("--Listado de paises--");
+        console.log("Bolivia");
+        console.log("Peru");
+        console.log("Brasil");
+        console.log("Francia");
+        console.log("Alemania");
+        console.groupEnd();
+        // Los console englobados en console.group() se observan como una especie 
+        // de combo box o select en la salida de la consola.
+
+
+    </script>
+</body>
+</html>

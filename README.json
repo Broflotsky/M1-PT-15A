@@ -1,0 +1,8 @@
+{
+  "layout": "intro",
+  "permalink": "/index.html",
+  "eleventyNavigation": {
+    "key": "Intro",
+    "order": 0
+  }
+}

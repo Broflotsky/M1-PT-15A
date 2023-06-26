@@ -1,0 +1,14 @@
+{
+  "name": "06-ds-3",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest --collectCoverage=false DataStructureIII.test.js",
+    "grade": "jest --useStderr --json --outputFile=./tests/result.json"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
